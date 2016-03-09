@@ -6,4 +6,4 @@ test:
   pre:
     - bin/install-wp-tests.sh wordpress_test root '' localhost latest
   override:
-    - php codecept.phar run
+    - php codecept.phar run unit
